@@ -13,6 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Click on the green button named Code on github and copy the URL of the repository.
 * Use the command git clone (repository's URL) to clone all existing project on your local machine.
 * Start your testing with your own clone of the repository using your preferred code editor.
+* Use command npm start to render the app on your local machine
 
 ## Prerequisites
 
@@ -45,8 +46,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Deployed Link
 
-* [See Live Site on Github](https://andresliu22.github.io/note-taker/)
-* [See Live Site on Heroku](https://andresliu-note-taker.herokuapp.com/)
+* [See Live Site](https://andresliu-note-taker.herokuapp.com/)
 
 ## Authors
 
