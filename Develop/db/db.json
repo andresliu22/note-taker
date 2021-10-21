@@ -1,17 +1,1 @@
-[
-    {
-        "id": 7408913844,
-        "title": "Hello World",
-        "text": "This is my first note"
-    },
-    {
-        "id": 2258090462,
-        "title": "2nd Note",
-        "text": "Here is my second note"
-    },
-    {
-        "id": 6116342879,
-        "title": "3rd Note",
-        "text": "Here is my 3rd note"
-    }
-]
+[{"id":1070924041,"title":"Grocery List","text":"Eggs\nPotatos\nChicken\nSteak"},{"id":6550605037,"title":"Go to the gym","text":"Leg day"},{"id":6103704127,"title":"Clean my room","text":"Drop boxes\nTake out the trash"}]
