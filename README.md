@@ -4,7 +4,7 @@ Take notes of all the things you have to do with this app and delete them when t
 
 ## Site Picture
 
-![Site](./Develop/public/assets/images/site-img.PNG)
+![Site](./public/assets/images/site-img.PNG)
 
 ## Getting Started
 
@@ -45,7 +45,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Deployed Link
 
-* [See Live Site](https://andresliu22.github.io/note-taker/)
+* [See Live Site on Github](https://andresliu22.github.io/note-taker/)
+* [See Live Site on Heroku](https://andresliu-note-taker.herokuapp.com/)
 
 ## Authors
 
