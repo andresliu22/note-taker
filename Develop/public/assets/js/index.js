@@ -67,7 +67,9 @@ const renderActiveNote = () => {
 };
 
 const handleNoteSave = () => {
+  const randomId = parseInt((Math.random() * 10000000000))
   const newNote = {
+    id: randomId,
     title: noteTitle.value,
     text: noteText.value,
   };
