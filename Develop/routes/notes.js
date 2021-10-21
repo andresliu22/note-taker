@@ -1,5 +1,7 @@
 const notes = require('express').Router();
+const { fstat } = require('fs');
 const { readAndAppend, readFromFile } = require('../helpers/fsUtils');
+const fs = require('fs');
 
 notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then(
@@ -23,14 +25,15 @@ notes.post('/', (req, res) => {
 notes.delete('/:id', (req, res) => {
     readFromFile('./db/db.json').then(
         (data) => {
-            const found = data.some(obj => obj.id === req.params.id);
-            if (!found) {
-                res.status(400).json({ msg: `No note with id of ${req.params.id}` });
-            } else {
-                res.json(todos.filter(todo => todo.id === req.params.id));
-            }
+            const parsedData = JSON.parse(data);
+            const filterData = parsedData.filter(obj => parseInt(obj.id) !== parseInt(req.params.id));
+            fs.writeFile("./db/db.json", JSON.stringify(filterData), (error) => {
+                error ? console.log(error) : console.log("Note deleted");
+            });
+            res.json(filterData);
         }
     )
 })
+    
 
 module.exports = notes;
