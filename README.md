@@ -4,7 +4,7 @@ Take notes of all the things you have to do with this app and delete them when t
 
 ## Site Picture
 
-![Site](./public/assets/images/site-img.PNG)
+![Site](./assets/images/site-img.PNG)
 
 ## Getting Started
 
